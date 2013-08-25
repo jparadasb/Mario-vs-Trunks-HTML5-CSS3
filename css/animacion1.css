@@ -5,6 +5,15 @@ html { overflow:hidden; }
 		left:430px;
 	}
 }
+@-webkit-keyframes "mario-camina-post"{
+	1%{
+		visibility:visible;
+	}
+	100%{
+		left:730px;
+
+	}
+}
 @-webkit-keyframes "inicio"{
 	100%{
 			border-radius: 100%;
@@ -158,4 +167,28 @@ html { overflow:hidden; }
 	-webkit-transform:scale(2);
 	-webkit-animation:5s inicio;
 	-webkit-animation-fill-mode:forwards;
+}
+#mario-bros-camina-post
+{
+	visibility:hidden;
+	z-index: 3;
+	position: absolute;
+	top:308px;
+	left: -200px;
+	width: 46px;
+	left: 430px;
+	-webkit-animation: 3s mario-camina-post linear;
+	-webkit-animation-delay:9s;
+}
+#mario-bros-pies2
+{
+
+	background-image: url(../img/mario.png);
+	background-position: 0px 0px;
+	height: 54px;
+	width: 46px;
+	-webkit-animation:2s mario-pies steps(1) infinite;
+	-webkit-animation-iteration-count: 3;
+	-webkit-animation-fill-mode:forwards;
+	-webkit-animation-delay:9s;
 }
