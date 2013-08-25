@@ -5,6 +5,14 @@ html { overflow:hidden; }
 		left:430px;
 	}
 }
+@-webkit-keyframes "inicio"{
+	100%{
+			border-radius: 100%;
+			-webkit-transform:scale(0);
+			width:50%;
+			left:25%;
+	}
+}
 @-webkit-keyframes "mario-pies" {
  10% {
     background-position: 0px -54px;
@@ -38,6 +46,9 @@ html { overflow:hidden; }
  }
 }
 @-webkit-keyframes "mario-parado"{
+	10%{
+		visibility: visible;
+	}
 	100%{
 		visibility: visible;
 	}
@@ -47,8 +58,20 @@ html { overflow:hidden; }
 		background-position: 0px -210px;
 	}
 }
+@-webkit-keyframes "disparo"{
+	100%{
+		top:150%;
+	}
+}
+@-webkit-keyframes "Desaparece"
+{
+	100%{
+		visibility:hidden;}
+}
+
 #ambiente-mario{
 	visibility: visible;
+	z-index: 2;
 }
 #cielo {
 	position: absolute;
@@ -67,14 +90,17 @@ html { overflow:hidden; }
 }
 #mario-bros-camina
 {
+	z-index: 3;
 	position: absolute;
 	top:308px;
 	left: -200px;
 	width: 46px;
 	-webkit-animation: 5s mario-camina linear;
+	-webkit-animation-delay:1s;
 }
 #mario-bros-pies
 {
+
 	background-image: url(../img/mario.png);
 	background-position: 0px 0px;
 	height: 54px;
@@ -82,17 +108,18 @@ html { overflow:hidden; }
 	-webkit-animation:2s mario-pies steps(1) infinite;
 	-webkit-animation-iteration-count: 3;
 	-webkit-animation-fill-mode:forwards;
+	-webkit-animation-delay:1s;
 }
 #mario-bros-parado{
+	z-index: 3;
 	visibility: hidden;
 	position: absolute;
 	top:308px;
 	height: 54px;
 	width: 46px;
 	left: 430px;
-	-webkit-animation:0.1s mario-parado;
-	-webkit-animation-fill-mode:forwards;
-	-webkit-animation-delay:5s;
+	-webkit-animation:3s mario-parado;
+	-webkit-animation-delay:6s;
 }
 #mario-bros-cabeza{
 	background-image: url(../img/mario.png);
@@ -101,5 +128,34 @@ html { overflow:hidden; }
 	width: 46px;
 	-webkit-animation:0.1s mario-cabeza steps(1);
 	-webkit-animation-fill-mode:forwards;
-	-webkit-animation-delay:6s;
+	-webkit-animation-delay:7s;
+}
+#mario-disparo{
+	z-index: 4;
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	top:-200px;
+	left:385px;
+	-webkit-animation:5s disparo;
+	-webkit-animation-fill-mode:forwards;
+	-webkit-animation-delay:9s;
+}
+#disparo{
+	background-image: url(../img/bala.png);
+	height: 150px;
+	width: 150px;
+	-webkit-transform:scale(2) rotate(270deg);
+}
+#capanegra{
+	z-index: 100;
+	position:absolute;
+	height:100%;
+	width:100%;
+	visibility:visible;
+	background-color: #000;
+	border-radius: 0%;
+	-webkit-transform:scale(2);
+	-webkit-animation:5s inicio;
+	-webkit-animation-fill-mode:forwards;
 }
