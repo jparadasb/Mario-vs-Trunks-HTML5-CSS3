@@ -1,28 +1,152 @@
 /*animacion1.css*/
-html { overflow:hidden; }
-@-webkit-keyframes "mario-camina"{
-	100%{
-		left:430px;
-	}
+html {
+	overflow: hidden;
 }
-@-webkit-keyframes "mario-camina-post"{
-	1%{
-		visibility:visible;
-	}
-	100%{
-		left:730px;
 
-	}
+@keyframes "mario-camina" {
+ 100% {
+    left: 430px;
+ }
+
 }
-@-webkit-keyframes "inicio"{
-	100%{
-			border-radius: 100%;
-			-webkit-transform:scale(0);
-			width:50%;
-			left:25%;
-	}
+
+@-moz-keyframes mario-camina {
+ 100% {
+   left: 430px;
+ }
+
 }
-@-webkit-keyframes "mario-pies" {
+
+@-webkit-keyframes "mario-camina" {
+ 100% {
+   left: 430px;
+ }
+
+}
+
+@-ms-keyframes "mario-camina" {
+ 100% {
+   left: 430px;
+ }
+
+}
+
+@-o-keyframes "mario-camina" {
+ 100% {
+   left: 430px;
+ }
+
+}
+
+@keyframes "mario-camina-post" {
+ 1% {
+    visibility: visible;
+ }
+ 100% {
+    left: 730px;
+ }
+
+}
+
+@-moz-keyframes mario-camina-post {
+ 1% {
+   visibility: visible;
+ }
+ 100% {
+   left: 730px;
+ }
+
+}
+
+@-webkit-keyframes "mario-camina-post" {
+ 1% {
+   visibility: visible;
+ }
+ 100% {
+   left: 730px;
+ }
+
+}
+
+@-ms-keyframes "mario-camina-post" {
+ 1% {
+   visibility: visible;
+ }
+ 100% {
+   left: 730px;
+ }
+
+}
+
+@-o-keyframes "mario-camina-post" {
+ 1% {
+   visibility: visible;
+ }
+ 100% {
+   left: 730px;
+ }
+
+}
+
+@keyframes "inicio" {
+ 100% {
+    border-radius: 100%;
+   	-webkit-transform: scale(0);
+   	-moz-transform: scale(0);
+   	-o-transform: scale(0);
+   	-ms-transform: scale(0);
+   	transform: scale(0);
+   	width: 50%;
+   	left: 25%;
+ }
+
+}
+
+@-moz-keyframes inicio {
+ 100% {
+   border-radius: 100%;
+   -moz-transform: scale(0);
+   transform: scale(0);
+   width: 50%;
+   left: 25%;
+ }
+
+}
+
+@-webkit-keyframes "inicio" {
+ 100% {
+   border-radius: 100%;
+   -webkit-transform: scale(0);
+   transform: scale(0);
+   width: 50%;
+   left: 25%;
+ }
+
+}
+
+@-ms-keyframes "inicio" {
+ 100% {
+   border-radius: 100%;
+   -ms-transform: scale(0);
+   transform: scale(0);
+   width: 50%;
+   left: 25%;
+ }
+
+}
+
+@-o-keyframes "inicio" {
+ 100% {
+   border-radius: 100%;
+   -o-transform: scale(0);
+   transform: scale(0);
+   width: 50%;
+   left: 25%;
+ }
+
+}
+
+@keyframes "mario-pies" {
  10% {
     background-position: 0px -54px;
  }
@@ -53,35 +177,340 @@ html { overflow:hidden; }
  100% {
     background-position: 0px 0px;
  }
-}
-@-webkit-keyframes "mario-parado"{
-	10%{
-		visibility: visible;
-	}
-	100%{
-		visibility: visible;
-	}
-}
-@-webkit-keyframes "mario-cabeza"{
-	100%{
-		background-position: 0px -210px;
-	}
-}
-@-webkit-keyframes "disparo"{
-	100%{
-		top:150%;
-	}
-}
-@-webkit-keyframes "Desaparece"
-{
-	100%{
-		visibility:hidden;}
+
 }
 
-#ambiente-mario{
+@-moz-keyframes mario-pies {
+ 10% {
+   background-position: 0px -54px;
+ }
+ 20% {
+   background-position: 0px 0px;
+ }
+ 30% {
+   background-position: 0px -53px;
+ }
+ 40% {
+   background-position: 0px 0px;
+ }
+ 50% {
+   background-position: 0px -54px;
+ }
+ 60% {
+   background-position: 0px 0px;
+ }
+ 70% {
+   background-position: 0px -53px;
+ }
+ 80% {
+   background-position: 0px -0px;
+ }
+ 90% {
+   background-position: 0px -53px;
+ }
+ 100% {
+   background-position: 0px 0px;
+ }
+
+}
+
+@-webkit-keyframes "mario-pies" {
+ 10% {
+   background-position: 0px -54px;
+ }
+ 20% {
+   background-position: 0px 0px;
+ }
+ 30% {
+   background-position: 0px -53px;
+ }
+ 40% {
+   background-position: 0px 0px;
+ }
+ 50% {
+   background-position: 0px -54px;
+ }
+ 60% {
+   background-position: 0px 0px;
+ }
+ 70% {
+   background-position: 0px -53px;
+ }
+ 80% {
+   background-position: 0px -0px;
+ }
+ 90% {
+   background-position: 0px -53px;
+ }
+ 100% {
+   background-position: 0px 0px;
+ }
+
+}
+
+@-ms-keyframes "mario-pies" {
+ 10% {
+   background-position: 0px -54px;
+ }
+ 20% {
+   background-position: 0px 0px;
+ }
+ 30% {
+   background-position: 0px -53px;
+ }
+ 40% {
+   background-position: 0px 0px;
+ }
+ 50% {
+   background-position: 0px -54px;
+ }
+ 60% {
+   background-position: 0px 0px;
+ }
+ 70% {
+   background-position: 0px -53px;
+ }
+ 80% {
+   background-position: 0px -0px;
+ }
+ 90% {
+   background-position: 0px -53px;
+ }
+ 100% {
+   background-position: 0px 0px;
+ }
+
+}
+
+@-o-keyframes "mario-pies" {
+ 10% {
+   background-position: 0px -54px;
+ }
+ 20% {
+   background-position: 0px 0px;
+ }
+ 30% {
+   background-position: 0px -53px;
+ }
+ 40% {
+   background-position: 0px 0px;
+ }
+ 50% {
+   background-position: 0px -54px;
+ }
+ 60% {
+   background-position: 0px 0px;
+ }
+ 70% {
+   background-position: 0px -53px;
+ }
+ 80% {
+   background-position: 0px -0px;
+ }
+ 90% {
+   background-position: 0px -53px;
+ }
+ 100% {
+   background-position: 0px 0px;
+ }
+
+}
+
+@keyframes "mario-parado" {
+ 10% {
+    visibility: visible;
+ }
+ 100% {
+    visibility: visible;
+ }
+
+}
+
+@-moz-keyframes mario-parado {
+ 10% {
+   visibility: visible;
+ }
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-webkit-keyframes "mario-parado" {
+ 10% {
+   visibility: visible;
+ }
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-ms-keyframes "mario-parado" {
+ 10% {
+   visibility: visible;
+ }
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-o-keyframes "mario-parado" {
+ 10% {
+   visibility: visible;
+ }
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@keyframes "mario-cabeza" {
+ 100% {
+    background-position: 0px -210px;
+ }
+
+}
+
+@-moz-keyframes mario-cabeza {
+ 100% {
+   background-position: 0px -210px;
+ }
+
+}
+
+@-webkit-keyframes "mario-cabeza" {
+ 100% {
+   background-position: 0px -210px;
+ }
+
+}
+
+@-ms-keyframes "mario-cabeza" {
+ 100% {
+   background-position: 0px -210px;
+ }
+
+}
+
+@-o-keyframes "mario-cabeza" {
+ 100% {
+   background-position: 0px -210px;
+ }
+
+}
+
+@keyframes "disparo" {
+ 100% {
+    top: 150%;
+ }
+
+}
+
+@-moz-keyframes disparo {
+ 100% {
+   top: 150%;
+ }
+
+}
+
+@-webkit-keyframes "disparo" {
+ 100% {
+   top: 150%;
+ }
+
+}
+
+@-ms-keyframes "disparo" {
+ 100% {
+   top: 150%;
+ }
+
+}
+
+@-o-keyframes "disparo" {
+ 100% {
+   top: 150%;
+ }
+
+}
+
+@keyframes "Desaparece" {
+ 100% {
+    visibility: hidden;
+ }
+
+}
+
+@-moz-keyframes Desaparece {
+ 100% {
+   visibility: hidden;
+ }
+
+}
+
+@-webkit-keyframes "Desaparece" {
+ 100% {
+   visibility: hidden;
+ }
+
+}
+
+@-ms-keyframes "Desaparece" {
+ 100% {
+   visibility: hidden;
+ }
+
+}
+
+@-o-keyframes "Desaparece" {
+ 100% {
+   visibility: hidden;
+ }
+
+}
+
+@keyframes "Stop-mario" {
+ 100% {
+    visibility: visible;
+ }
+
+}
+
+@-moz-keyframes Stop-mario {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-webkit-keyframes "Stop-mario" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-ms-keyframes "Stop-mario" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-o-keyframes "Stop-mario" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+#ambiente-mario {
 	visibility: visible;
 	z-index: 2;
 }
+
 #cielo {
 	position: absolute;
 	background: url(../img/nubes.jpg) 0 -50px repeat;
@@ -90,105 +519,257 @@ html { overflow:hidden; }
 	top: 0;
 }
 
-#piso{
+#piso {
 	position: absolute;
 	background: url(../img/piso.jpg) repeat;
-	top:360px;
+	top: 360px;
 	width: 100%;
 	height: 100%;
 }
-#mario-bros-camina
-{
+
+#mario-bros-camina {
 	z-index: 3;
 	position: absolute;
-	top:308px;
+	top: 308px;
 	left: -200px;
 	width: 46px;
-	-webkit-animation: 5s mario-camina linear;
-	-webkit-animation-delay:1s;
-}
-#mario-bros-pies
-{
 
+	-webkit-animation: 5s mario-camina linear;
+	-moz-animation: 5s mario-camina linear;
+	-ms-animation: 5s mario-camina linear;
+	-o-animation: 5s mario-camina linear;
+	animation: 5s mario-camina linear;
+
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+#mario-bros-pies {
 	background-image: url(../img/mario.png);
 	background-position: 0px 0px;
 	height: 54px;
 	width: 46px;
-	-webkit-animation:2s mario-pies steps(1) infinite;
+
+	-webkit-animation: 2s mario-pies steps(1) infinite;
+	-moz-animation: 2s mario-pies steps(1) infinite;
+	-ms-animation: 2s mario-pies steps(1) infinite;
+	-o-animation: 2s mario-pies steps(1) infinite;
+	animation: 2s mario-pies steps(1) infinite;
+
 	-webkit-animation-iteration-count: 3;
-	-webkit-animation-fill-mode:forwards;
-	-webkit-animation-delay:1s;
+	-moz-animation-iteration-count: 3;
+	-ms-animation-iteration-count: 3;
+	-o-animation-iteration-count: 3;
+	animation-iteration-count: 3;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
 }
-#mario-bros-parado{
+
+#mario-bros-parado {
 	z-index: 3;
 	visibility: hidden;
 	position: absolute;
-	top:308px;
+	top: 308px;
 	height: 54px;
 	width: 46px;
 	left: 430px;
-	-webkit-animation:3s mario-parado;
-	-webkit-animation-delay:6s;
+
+	-webkit-animation: 3s mario-parado;
+	-moz-animation: 3s mario-parado;
+	-ms-animation: 3s mario-parado;
+	-o-animation: 3s mario-parado;
+	animation: 3s mario-parado;
+
+	-webkit-animation-delay: 6s;
+	-moz-animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	-o-animation-delay: 6s;
+	animation-delay: 6s;
 }
-#mario-bros-cabeza{
+
+#mario-bros-cabeza {
 	background-image: url(../img/mario.png);
 	background-position: 0px 0px;
 	height: 54px;
 	width: 46px;
-	-webkit-animation:0.1s mario-cabeza steps(1);
-	-webkit-animation-fill-mode:forwards;
-	-webkit-animation-delay:7s;
+
+	-webkit-animation: 0.1s mario-cabeza steps(1);
+	-moz-animation: 0.1s mario-cabeza steps(1);
+	-ms-animation: 0.1s mario-cabeza steps(1);
+	-o-animation: 0.1s mario-cabeza steps(1);
+	animation: 0.1s mario-cabeza steps(1);
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-delay: 7s;
+	-moz-animation-delay: 7s;
+	-ms-animation-delay: 7s;
+	-o-animation-delay: 7s;
+	animation-delay: 7s;
 }
-#mario-disparo{
+
+#mario-disparo {
 	z-index: 4;
 	position: absolute;
 	height: 150px;
 	width: 150px;
-	top:-200px;
-	left:385px;
-	-webkit-animation:5s disparo;
-	-webkit-animation-fill-mode:forwards;
-	-webkit-animation-delay:9s;
+	top: -200px;
+	left: 385px;
+
+	-webkit-animation: 5s disparo;
+	-moz-animation: 5s disparo;
+	-ms-animation: 5s disparo;
+	-o-animation: 5s disparo;
+	animation: 5s disparo;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-delay: 9s;
+	-moz-animation-delay: 9s;
+	-ms-animation-delay: 9s;
+	-o-animation-delay: 9s;
+	animation-delay: 9s;
 }
-#disparo{
+
+#disparo {
 	background-image: url(../img/bala.png);
 	height: 150px;
 	width: 150px;
-	-webkit-transform:scale(2) rotate(270deg);
+
+	-webkit-transform: scale(2) rotate(270deg);
+	-moz-transform: scale(2) rotate(270deg);
+	-o-transform: scale(2) rotate(270deg);
+	-ms-transform: scale(2) rotate(270deg);
+	transform: scale(2) rotate(270deg);
 }
-#capanegra{
+
+#capanegra {
 	z-index: 100;
-	position:absolute;
-	height:100%;
-	width:100%;
-	visibility:visible;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	visibility: visible;
 	background-color: #000;
 	border-radius: 0%;
-	-webkit-transform:scale(2);
-	-webkit-animation:5s inicio;
-	-webkit-animation-fill-mode:forwards;
+
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	-o-transform: scale(2);
+	-ms-transform: scale(2);
+	transform: scale(2);
+
+	-webkit-animation: 5s inicio;
+	-moz-animation: 5s inicio;
+	-ms-animation: 5s inicio;
+	-o-animation: 5s inicio;
+	animation: 5s inicio;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
 }
-#mario-bros-camina-post
-{
-	visibility:hidden;
+
+#mario-bros-camina-post {
+	visibility: hidden;
 	z-index: 3;
 	position: absolute;
-	top:308px;
+	top: 308px;
 	left: -200px;
 	width: 46px;
 	left: 430px;
-	-webkit-animation: 3s mario-camina-post linear;
-	-webkit-animation-delay:9s;
-}
-#mario-bros-pies2
-{
 
+	-webkit-animation: 3s mario-camina-post linear;
+	-moz-animation: 3s mario-camina-post linear;
+	-ms-animation: 3s mario-camina-post linear;
+	-o-animation: 3s mario-camina-post linear;
+	animation: 3s mario-camina-post linear;
+
+	-webkit-animation-delay: 9s;
+	-moz-animation-delay: 9s;
+	-ms-animation-delay: 9s;
+	-o-animation-delay: 9s;
+	animation-delay: 9s;
+}
+
+#mario-bros-pies2 {
 	background-image: url(../img/mario.png);
 	background-position: 0px 0px;
 	height: 54px;
 	width: 46px;
-	-webkit-animation:2s mario-pies steps(1) infinite;
+
+	-webkit-animation: 2s mario-pies steps(1) infinite;
+	-moz-animation: 2s mario-pies steps(1) infinite;
+	-ms-animation: 2s mario-pies steps(1) infinite;
+	-o-animation: 2s mario-pies steps(1) infinite;
+	animation: 2s mario-pies steps(1) infinite;
+
 	-webkit-animation-iteration-count: 3;
-	-webkit-animation-fill-mode:forwards;
-	-webkit-animation-delay:9s;
+	-moz-animation-iteration-count: 3;
+	-ms-animation-iteration-count: 3;
+	-o-animation-iteration-count: 3;
+	animation-iteration-count: 3;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-delay: 9s;
+	-moz-animation-delay: 9s;
+	-ms-animation-delay: 9s;
+	-o-animation-delay: 9s;
+	animation-delay: 9s;
+}
+
+#mario-stop {
+	visibility: hidden;
+	z-index: 3;
+	position: absolute;
+	background-image: url(../img/mario.png);
+	left: 730px;
+	top: 308px;
+	height: 54px;
+	width: 46px;
+
+	-webkit-animation: 0.1 Stop-mario;
+	-moz-animation: 0.1 Stop-mario;
+	-ms-animation: 0.1 Stop-mario;
+	-o-animation: 0.1 Stop-mario;
+	animation: 0.1 Stop-mario;
+
+	-webkit-animation-delay: 12s;
+	-moz-animation-delay: 12s;
+	-ms-animation-delay: 12s;
+	-o-animation-delay: 12s;
+	animation-delay: 12s;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
 }

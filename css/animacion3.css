@@ -1,0 +1,49 @@
+/* animacion3.css */
+@-webkit-keyframes "movimiento"{
+	10%{
+		left:980px;
+	}
+}
+@-webkit-keyframes "animacion"{
+	100%{
+		visibility:none;
+	}
+}
+@-webkit-keyframes "accion_poder"{
+	100%
+	{
+	background-image: url(../img/poder.png);
+	height: 90px;
+	width: 91px;
+
+	}
+}
+#dinero{
+	z-index: 3;
+	position: absolute;
+	visibility: none;
+	background-image: url(../img/dinero.png);
+	height: 26px;
+	width: 26px;
+	top:250px;
+	left:770px;
+	-webkit-animation: 0.1s Stop-mario;
+	-webkit-animation-delay:16s;
+	-webkit-animation-fill-mode:forwards;
+}
+body:active #trunks-entra
+{
+	-webkit-animation: 5s movimiento;
+	-webkit-animation-fill-mode:forwards;
+}
+body:active #trunks-entra #trunks-teletransporta
+{
+	-webkit-animation: 5s animacion;
+	-webkit-animation-fill-mode:forwards;
+}
+#poder{
+	visibility:none;
+	position:absolute;
+	width:100%;
+	height:100%;
+}
