@@ -41,7 +41,7 @@
 	99%{background-position: -475px -9px;width:52px;}
 	100%{background-position: -687px -9px;width:52px;}
 }
-#trunks-entra{
+.trunks-entra{
 	visibility:visible;
 	position:absolute;
 	width:100px;
@@ -52,7 +52,7 @@
 	-webkit-animation-fill-mode:forwards;
 	-webkit-animation-delay:10s;
 }
-#trunks-teletransporta{
+.trunks-teletransporta{
 	width:52px;
 	height:73px;
 	background-image: url(../img/trunks.png);

@@ -1,22 +1,36 @@
 /* animacion3.css */
-@-webkit-keyframes "movimiento"{
-	10%{
-		left:980px;
-	}
-}
-@-webkit-keyframes "animacion"{
-	100%{
-		visibility:none;
-	}
-}
-@-webkit-keyframes "accion_poder"{
+@-webkit-keyframes "accion-poder"{
 	100%
 	{
-	background-image: url(../img/poder.png);
-	height: 90px;
-	width: 91px;
+	height: 100%;
+	width: 100%;
 
 	}
+}
+@-webkit-keyframes "salva"{
+	100%{
+		visibility: visible;
+	}
+
+}
+#salva-mario{
+	position: absolute;
+	visibility: hidden;
+	text-align: center;
+	margin:auto;
+	left:0;
+	right: 0;
+	z-index: 7;
+	-webkit-animation: 0.1s Stop-mario;
+	-webkit-animation-delay:17s;
+	-webkit-animation-fill-mode:forwards;
+}
+
+#salva-mario h1{
+	left:624px;
+}
+.salva-mario-off{
+	display:none;
 }
 #dinero{
 	z-index: 3;
@@ -31,19 +45,48 @@
 	-webkit-animation-delay:16s;
 	-webkit-animation-fill-mode:forwards;
 }
-body:active #trunks-entra
-{
-	-webkit-animation: 5s movimiento;
-	-webkit-animation-fill-mode:forwards;
-}
-body:active #trunks-entra #trunks-teletransporta
-{
-	-webkit-animation: 5s animacion;
-	-webkit-animation-fill-mode:forwards;
-}
+
 #poder{
 	visibility:none;
 	position:absolute;
 	width:100%;
 	height:100%;
+}
+.trunks-entra-post{
+	visibility:visible;
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:289px;
+	left:880px;
+}
+.trunks-teletransporta-post{
+	width:52px;
+	height:73px;
+	background-image: url(../img/trunks.png);
+	background-position: -687px -9px;
+}
+.poder{
+	display:none;
+	z-index: 7;
+	position: absolute;
+	left:0;
+	right: 0;
+	margin: auto;
+}
+.poder-post
+{
+	text-align: center;
+	z-index: 7;
+	position: absolute;
+	top:40%;
+	left:0;
+	right: 0;
+	margin: auto;
+}
+.accion-poder{
+	height="90";
+	width="91";
+	-webkit-animation: 6s accion-poder;
+	-webkit-animation-fill-mode:forwards;
 }
