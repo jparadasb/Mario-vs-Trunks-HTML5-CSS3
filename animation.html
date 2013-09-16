@@ -13,12 +13,19 @@
 		<h1>Haz Click para salvar a mario</h1>
 		<a href="#"><img src="img/hongo.png" height="589" width="624" /> </a>
 	</div>
- 	<div id="capanegra">
-		<div id="negra"></div>
+ 	<div id="capanegra" class="capanegra">
+		<div id="negra">
+			<div class="gameover" id="gameover">
+				<h1>GAME OVER</h1>
+				<h2>Tu Ki no es tan poderoso como para vencer a Trunks</h2>
+				<h3>Create by: <a href="http://twitter.com/pstopb">@pstopb</a></h3>
+				<h3>Gracias a <a href="http://twitter.com/escuelawebve">@escuelawebve</a></h3>
+			</div>
+		</div>
 	</div> 
 	<div id="ambiente-mario">
-		<div id="cielo"></div>
-		<div id="piso"></div>
+		<div class="cielo" id="cielo"></div>
+		<div id="piso" class="piso"></div>
 	</div>
 	<div id="mario-bros-camina">
 		<div id="mario-bros-pies"></div>
@@ -29,7 +36,7 @@
 	<div id="mario-bros-camina-post">
 		<div id="mario-bros-pies2"></div>
 	</div>
-	<div id="mario-stop">
+	<div id="mario-stop" class="mario-stop">
 		
 	</div>
 	<div id="dinero">
@@ -50,7 +57,7 @@
 			
 		</div>
 	</div>
-	<script src="http://code.jquery.com/jquery-1.10.2.js">
+	<script src="js/jquery-1.10.2.js">
 	</script>
 	<script>
 
@@ -58,10 +65,20 @@
       $("#salva-mario").addClass("salva-mario-off");
       $("#trunks-entra").removeClass("trunks-entra");
       $("#poder").removeClass("poder");
+      $("#cielo").removeClass("cielo");
+      $("#capanegra").removeClass("capanegra");
+      $("#piso").removeClass("piso");
+      $("#gameover").removeClass("gameover");
+      $("#mario-stop").removeClass("mario-stop");
       $("#trunks-teletransporta").removeClass("trunks-teletransporta");
       $("#trunks-entra").addClass("trunks-entra-post");
       $("#trunks-teletransporta").addClass("trunks-teletransporta-post");
       $("#poder").addClass("poder-post");
+      $("#cielo").addClass("cielo-activo");
+      $("#piso").addClass("piso-activo");
+      $("#mario-stop").addClass("mario-stop-ultimate");
+      $("#gameover").addClass("gameover-post");
+      $("#capanegra").addClass("capanegra-post");
     });
 	</script>
 </body>

@@ -511,7 +511,7 @@ html {
 	z-index: 2;
 }
 
-#cielo {
+.cielo {
 	position: absolute;
 	background: url(../img/nubes.jpg) 0 -50px repeat;
 	width: 900%;
@@ -519,7 +519,7 @@ html {
 	top: 0;
 }
 
-#piso {
+.piso {
 	position: absolute;
 	background: url(../img/piso.jpg) repeat;
 	top: 360px;
@@ -664,7 +664,7 @@ html {
 	transform: scale(2) rotate(270deg);
 }
 
-#capanegra {
+.capanegra {
 	z-index: 100;
 	position: absolute;
 	height: 100%;
@@ -745,7 +745,7 @@ html {
 	animation-delay: 9s;
 }
 
-#mario-stop {
+.mario-stop {
 	visibility: hidden;
 	z-index: 3;
 	position: absolute;

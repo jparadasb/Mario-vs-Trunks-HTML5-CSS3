@@ -1,92 +1,666 @@
 /* animacion3.css */
-@-webkit-keyframes "accion-poder"{
-	100%
-	{
-	height: 100%;
-	width: 100%;
-
-	}
-}
-@-webkit-keyframes "salva"{
-	100%{
-		visibility: visible;
-	}
+@keyframes "accion-poder" {
+ 50% {
+    height: 60px;
+   	width: 60px;
+ }
+ 100% {
+    height: 1024px;
+   	width: 1024px;
+ }
 
 }
-#salva-mario{
+
+@-moz-keyframes accion-poder {
+ 50% {
+   height: 60px;
+   width: 60px;
+ }
+ 100% {
+   height: 1024px;
+   width: 1024px;
+ }
+
+}
+
+@-webkit-keyframes "accion-poder" {
+ 50% {
+   height: 60px;
+   width: 60px;
+ }
+ 100% {
+   height: 1024px;
+   width: 1024px;
+ }
+
+}
+
+@-ms-keyframes "accion-poder" {
+ 50% {
+   height: 60px;
+   width: 60px;
+ }
+ 100% {
+   height: 1024px;
+   width: 1024px;
+ }
+
+}
+
+@-o-keyframes "accion-poder" {
+ 50% {
+   height: 60px;
+   width: 60px;
+ }
+ 100% {
+   height: 1024px;
+   width: 1024px;
+ }
+
+}
+
+@keyframes "salva" {
+ 100% {
+    visibility: visible;
+ }
+
+}
+
+@-moz-keyframes salva {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-webkit-keyframes "salva" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-ms-keyframes "salva" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-o-keyframes "salva" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@keyframes "lugar-poder" {
+ 50% {
+    top: 250px;
+ }
+ 100% {
+    top: 0px;
+ }
+
+}
+
+@-moz-keyframes lugar-poder {
+ 50% {
+   top: 250px;
+ }
+ 100% {
+   top: 0px;
+ }
+
+}
+
+@-webkit-keyframes "lugar-poder" {
+ 50% {
+   top: 250px;
+ }
+ 100% {
+   top: 0px;
+ }
+
+}
+
+@-ms-keyframes "lugar-poder" {
+ 50% {
+   top: 250px;
+ }
+ 100% {
+   top: 0px;
+ }
+
+}
+
+@-o-keyframes "lugar-poder" {
+ 50% {
+   top: 250px;
+ }
+ 100% {
+   top: 0px;
+ }
+
+}
+
+@keyframes "cielo-activo" {
+ 100% {
+    background: url(../img/nubes-original.jpg) 0 -50px repeat;
+ }
+
+}
+
+@-moz-keyframes cielo-activo {
+ 100% {
+   background: url(../img/nubes-original.jpg) 0 -50px repeat;
+ }
+
+}
+
+@-webkit-keyframes "cielo-activo" {
+ 100% {
+   background: url(../img/nubes-original.jpg) 0 -50px repeat;
+ }
+
+}
+
+@-ms-keyframes "cielo-activo" {
+ 100% {
+   background: url(../img/nubes-original.jpg) 0 -50px repeat;
+ }
+
+}
+
+@-o-keyframes "cielo-activo" {
+ 100% {
+   background: url(../img/nubes-original.jpg) 0 -50px repeat;
+ }
+
+}
+
+@keyframes "piso-activo" {
+ 100% {
+    background: url(../img/piso.jpg) repeat;
+ }
+
+}
+
+@-moz-keyframes piso-activo {
+ 100% {
+   background: url(../img/piso.jpg) repeat;
+ }
+
+}
+
+@-webkit-keyframes "piso-activo" {
+ 100% {
+   background: url(../img/piso.jpg) repeat;
+ }
+
+}
+
+@-ms-keyframes "piso-activo" {
+ 100% {
+   background: url(../img/piso.jpg) repeat;
+ }
+
+}
+
+@-o-keyframes "piso-activo" {
+ 100% {
+   background: url(../img/piso.jpg) repeat;
+ }
+
+}
+
+@keyframes "ataca" {
+ 25% {
+    background-position: -124px 0px;
+   	width: 37px;
+ }
+ 50% {
+    background-position: -86px 0px;
+   	width: 37px;
+ }
+ 75% {
+    background-position: -43px 0px;
+   	width: 41px;
+ }
+ 100% {
+    background-position: 0px 0px;
+   	width: 41px;
+ }
+
+}
+
+@-moz-keyframes ataca {
+ 25% {
+   background-position: -124px 0px;
+   width: 37px;
+ }
+ 50% {
+   background-position: -86px 0px;
+   width: 37px;
+ }
+ 75% {
+   background-position: -43px 0px;
+   width: 41px;
+ }
+ 100% {
+   background-position: 0px 0px;
+   width: 41px;
+ }
+
+}
+
+@-webkit-keyframes "ataca" {
+ 25% {
+   background-position: -124px 0px;
+   width: 37px;
+ }
+ 50% {
+   background-position: -86px 0px;
+   width: 37px;
+ }
+ 75% {
+   background-position: -43px 0px;
+   width: 41px;
+ }
+ 100% {
+   background-position: 0px 0px;
+   width: 41px;
+ }
+
+}
+
+@-ms-keyframes "ataca" {
+ 25% {
+   background-position: -124px 0px;
+   width: 37px;
+ }
+ 50% {
+   background-position: -86px 0px;
+   width: 37px;
+ }
+ 75% {
+   background-position: -43px 0px;
+   width: 41px;
+ }
+ 100% {
+   background-position: 0px 0px;
+   width: 41px;
+ }
+
+}
+
+@-o-keyframes "ataca" {
+ 25% {
+   background-position: -124px 0px;
+   width: 37px;
+ }
+ 50% {
+   background-position: -86px 0px;
+   width: 37px;
+ }
+ 75% {
+   background-position: -43px 0px;
+   width: 41px;
+ }
+ 100% {
+   background-position: 0px 0px;
+   width: 41px;
+ }
+
+}
+
+@keyframes "capanegra-post" {
+ 100% {
+    visibility: visible;
+ }
+
+}
+
+@-moz-keyframes capanegra-post {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-webkit-keyframes "capanegra-post" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-ms-keyframes "capanegra-post" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-o-keyframes "capanegra-post" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@keyframes "gameover" {
+ 100% {
+    visibility: visible;
+ }
+
+}
+
+@-moz-keyframes gameover {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-webkit-keyframes "gameover" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-ms-keyframes "gameover" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+@-o-keyframes "gameover" {
+ 100% {
+   visibility: visible;
+ }
+
+}
+
+#salva-mario {
 	position: absolute;
 	visibility: hidden;
 	text-align: center;
-	margin:auto;
-	left:0;
+	margin: auto;
+	left: 0;
 	right: 0;
 	z-index: 7;
+
 	-webkit-animation: 0.1s Stop-mario;
-	-webkit-animation-delay:17s;
-	-webkit-animation-fill-mode:forwards;
+	-moz-animation: 0.1s Stop-mario;
+	-ms-animation: 0.1s Stop-mario;
+	-o-animation: 0.1s Stop-mario;
+	animation: 0.1s Stop-mario;
+
+	-webkit-animation-delay: 17s;
+	-moz-animation-delay: 17s;
+	-ms-animation-delay: 17s;
+	-o-animation-delay: 17s;
+	animation-delay: 17s;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
 }
 
-#salva-mario h1{
-	left:624px;
+#salva-mario h1 {
+	z-index: 20;
+	position: absolute;
+	left: 478px;
+	top: 86px;
+	width: 333px;
+	color: #fff;
 }
-.salva-mario-off{
-	display:none;
+
+.salva-mario-off {
+	display: none;
 }
-#dinero{
+
+#dinero {
 	z-index: 3;
 	position: absolute;
 	visibility: none;
 	background-image: url(../img/dinero.png);
 	height: 26px;
 	width: 26px;
-	top:250px;
-	left:770px;
+	top: 250px;
+	left: 770px;
+
 	-webkit-animation: 0.1s Stop-mario;
-	-webkit-animation-delay:16s;
-	-webkit-animation-fill-mode:forwards;
+	-moz-animation: 0.1s Stop-mario;
+	-ms-animation: 0.1s Stop-mario;
+	-o-animation: 0.1s Stop-mario;
+	animation: 0.1s Stop-mario;
+
+	-webkit-animation-delay: 16s;
+	-moz-animation-delay: 16s;
+	-ms-animation-delay: 16s;
+	-o-animation-delay: 16s;
+	animation-delay: 16s;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
 }
 
-#poder{
-	visibility:none;
-	position:absolute;
-	width:100%;
-	height:100%;
+#poder {
+	visibility: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
-.trunks-entra-post{
-	visibility:visible;
-	position:absolute;
-	width:100px;
-	height:100px;
-	top:289px;
-	left:880px;
+
+.trunks-entra-post {
+	visibility: visible;
+	position: absolute;
+	width: 43px;
+	height: 64px;
+	top: 298px;
+	left: 980px;
 }
-.trunks-teletransporta-post{
-	width:52px;
-	height:73px;
-	background-image: url(../img/trunks.png);
-	background-position: -687px -9px;
+
+.trunks-teletransporta-post {
+	width: 43px;
+	height: 64px;
+	background-image: url(../img/trunks-poder.png);
+	background-position: -163px 0px;
+
+	-webkit-animation: 4.5s ataca steps(1);
+	-moz-animation: 4.5s ataca steps(1);
+	-ms-animation: 4.5s ataca steps(1);
+	-o-animation: 4.5s ataca steps(1);
+	animation: 4.5s ataca steps(1);
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
 }
-.poder{
-	display:none;
+
+.poder {
+	display: none;
 	z-index: 7;
 	position: absolute;
-	left:0;
+	left: 0;
 	right: 0;
 	margin: auto;
 }
-.poder-post
-{
+
+.poder-post {
 	text-align: center;
 	z-index: 7;
 	position: absolute;
-	top:40%;
-	left:0;
+	top: 250px;
+	left: 0;
 	right: 0;
 	margin: auto;
+
+	-webkit-animation: 7s lugar-poder;
+	-moz-animation: 7s lugar-poder;
+	-ms-animation: 7s lugar-poder;
+	-o-animation: 7s lugar-poder;
+	animation: 7s lugar-poder;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
 }
-.accion-poder{
-	height="90";
-	width="91";
-	-webkit-animation: 6s accion-poder;
-	-webkit-animation-fill-mode:forwards;
+
+.accion-poder {
+	height: 10px;
+	width: 10px;
+
+	-webkit-animation: 7s accion-poder;
+	-moz-animation: 7s accion-poder;
+	-ms-animation: 7s accion-poder;
+	-o-animation: 7s accion-poder;
+	animation: 7s accion-poder;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.cielo-activo {
+	position: absolute;
+	width: 900%;
+	height: 360px;
+	top: 0;
+	background: url(../img/nubes-negativo.jpg) 0 -50px repeat;
+
+	-webkit-animation: 0.4s cielo-activo infinite;
+	-moz-animation: 0.4s cielo-activo infinite;
+	-ms-animation: 0.4s cielo-activo infinite;
+	-o-animation: 0.4s cielo-activo infinite;
+	animation: 0.4s cielo-activo infinite;
+}
+
+.piso-activo {
+	position: absolute;
+	background: url(../img/piso-oscuro.jpg) repeat;
+	top: 360px;
+	width: 100%;
+	height: 100%;
+
+	-webkit-animation: 0.4s piso-activo infinite linear;
+	-moz-animation: 0.4s piso-activo infinite linear;
+	-ms-animation: 0.4s piso-activo infinite linear;
+	-o-animation: 0.4s piso-activo infinite linear;
+	animation: 0.4s piso-activo infinite linear;
+}
+
+.mario-stop-ultimate {
+	visibility: visible;
+	z-index: 3;
+	position: absolute;
+	background-image: url(../img/mario.png);
+	left: 500px;
+	top: 308px;
+	height: 54px;
+	width: 46px;
+}
+
+.gameover {
+	visibility: hidden;
+	z-index: 8;
+	position: absolute;
+}
+
+.gameover-post {
+	visibility: hidden;
+	z-index: 32;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40%;
+	margin: auto;
+	width: 600px;
+	height: 100%;
+	text-align: center;
+
+	-webkit-animation: 0.4s gameover;
+	-moz-animation: 0.4s gameover;
+	-ms-animation: 0.4s gameover;
+	-o-animation: 0.4s gameover;
+	animation: 0.4s gameover;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-delay: 8s;
+	-moz-animation-delay: 8s;
+	-ms-animation-delay: 8s;
+	-o-animation-delay: 8s;
+	animation-delay: 8s;
+}
+
+.gameover-post h1 {
+	font-size: 54px;
+	background: gradient(linear, left top, left bottom, from(#FFF900), to(#FF0000));
+
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.gameover-post h2 {
+	font-size: 17px;
+	color: #3D3C3C;
+}
+
+.gameover-post h3 {
+	font-size: 10px;
+	color: #fff;
+}
+
+.gameover-post h4 {
+	font-size: 8px;
+	color: #C5C5C5;
+}
+
+.capanegra-post {
+	z-index: 100;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	visibility: hidden;
+	background-color: #000;
+
+	-webkit-animation: 0.4s capanegra-post;
+	-moz-animation: 0.4s capanegra-post;
+	-ms-animation: 0.4s capanegra-post;
+	-o-animation: 0.4s capanegra-post;
+	animation: 0.4s capanegra-post;
+
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+	-webkit-animation-delay: 8s;
+	-moz-animation-delay: 8s;
+	-ms-animation-delay: 8s;
+	-o-animation-delay: 8s;
+	animation-delay: 8s;
 }
