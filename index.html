@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Animación</title>
+	<title>Mario Bros Vs Trunks</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/animacion1.css">
 	<link rel="stylesheet" href="css/animacion2.css">
 	<link rel="stylesheet" href="css/animacion3.css">
+	<link href="favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
+	<div id="mariomuere">
+		
+	</div>
 	<div id="salva-mario">
 		<h1>Haz Click para salvar a mario</h1>
 		<a href="#"><img src="img/hongo.png" height="589" width="624" /> </a>
@@ -49,14 +53,18 @@
 	<div id="poder" class="poder">
 		<img src="img/poder.png" class="accion-poder">
 	</div>
-<!-- 	<audio autoplay>
-	  <source src="audio/mario.mp3" type="audio/mpeg">
-	</audio> -->
+ 	<audio autoplay id="audio1">
+	  <source src="audio/mario-n.mp3" type="audio/mpeg" id="audiomario1">
+	</audio>
+	<audio preload id="audio2">
+	  <source src="audio/mario-fin.mp3" type="audio/mpeg" id="audiomario2">
+	</audio>  
 	<div id="mario-disparo">
 		<div id="disparo">
 			
 		</div>
 	</div>
+
 	<script src="js/jquery-1.10.2.js">
 	</script>
 	<script>
@@ -76,9 +84,15 @@
       $("#poder").addClass("poder-post");
       $("#cielo").addClass("cielo-activo");
       $("#piso").addClass("piso-activo");
+      $("#mariomuere").addClass("mariomuere");
       $("#mario-stop").addClass("mario-stop-ultimate");
       $("#gameover").addClass("gameover-post");
       $("#capanegra").addClass("capanegra-post");
+      	$(document).ready(function(){
+		$("#audio1")[0].pause();
+		$("#audio2")[0].play();
+		});
+
     });
 	</script>
 </body>

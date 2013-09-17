@@ -383,6 +383,72 @@
  }
 
 }
+@keyframes "mario-muere" {
+ 50% {
+    visibility: visible;
+   	top: 301px;
+ }
+ 100% {
+    visibility: visible;
+   	top: 150%;
+ }
+
+}
+
+@-moz-keyframes mario-muere {
+ 50% {
+   visibility: visible;
+   top: 301px;
+ }
+ 100% {
+   visibility: visible;
+   top: 150%;
+ }
+
+}
+
+@-webkit-keyframes "mario-muere" {
+ 50% {
+   visibility: visible;
+   top: 301px;
+ }
+ 100% {
+   visibility: visible;
+   top: 150%;
+ }
+
+}
+
+@-ms-keyframes "mario-muere" {
+ 50% {
+   visibility: visible;
+   top: 301px;
+ }
+ 100% {
+   visibility: visible;
+   top: 150%;
+ }
+
+}
+
+@-o-keyframes "mario-muere" {
+ 50% {
+   visibility: visible;
+   top: 301px;
+ }
+ 100% {
+   visibility: visible;
+   top: 150%;
+ }
+
+}
+
+
+
+
+
+
+
 
 #salva-mario {
 	position: absolute;
@@ -616,11 +682,9 @@
 .gameover-post h1 {
 	font-size: 54px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#FFF900), to(#FF0000));  
-	background: gradient(linear, left top, left bottom, from(#FFF900), to(#FF0000)); 
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	background-clip: text;
-	text-fill-color: transparent;
 	-webkit-text-fill-color: transparent;
 
 }
@@ -665,4 +729,26 @@
 	-ms-animation-delay: 8s;
 	-o-animation-delay: 8s;
 	animation-delay: 8s;
+}
+.mariomuere{
+	visibility: hidden;
+	z-index: 200;
+	position: absolute;
+	background-image: url(../img/mario.png);
+	background-position: -7px -397px;
+	left: 500px;
+	top: 308px;
+	height: 54px;
+	width: 46px;
+	-webkit-animation: 3s mario-muere;
+	-moz-animation: 3s mario-muere;
+	-ms-animation: 3s mario-muere;
+	-o-animation: 3s mario-muere;
+	animation: 3s mario-muere;
+	-webkit-animation-delay: 7.5s;
+	-moz-animation-delay: 7.5s;
+	-ms-animation-delay: 7.5s;
+	-o-animation-delay: 7.5s;
+	animation-delay: 7.5s;
+
 }
