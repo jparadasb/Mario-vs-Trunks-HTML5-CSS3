@@ -752,3 +752,8 @@
 	animation-delay: 7.5s;
 
 }
+.github{
+	-webkit-filter: invert(1);
+	width: 64px;
+	height: 64px;
+}
