@@ -505,6 +505,40 @@ html {
  }
 
 }
+.capanegra-pre{
+	z-index: 100;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	visibility: visible;
+	background-color: rgba(0,0,0,0.5);
+}
+.salva-mario-pre {
+	position: absolute;
+	visibility: hidden;
+	text-align: center;
+	margin: auto;
+	height: 100%;
+	left: 0;
+	right: 0;
+	z-index: 7;
+}
+.preload{
+	visibility:visible;
+	position:absolute;
+	width:100%;
+	height:100%;
+	text-align: center;
+	vertical-align: middle;
+	color:#fff;
+}
+.preload p{
+	margin-top:20px;
+	font-weight: bold;
+}
+.load{
+	display:none;
+}
 
 #ambiente-mario {
 	visibility: visible;
@@ -527,7 +561,7 @@ html {
 	height: 100%;
 }
 
-#mario-bros-camina {
+.mario-bros-camina {
 	z-index: 3;
 	position: absolute;
 	top: 308px;
@@ -547,7 +581,7 @@ html {
 	animation-delay: 1s;
 }
 
-#mario-bros-pies {
+.mario-bros-pies {
 	background-image: url(../img/mario.png);
 	background-position: 0px 0px;
 	height: 54px;
@@ -578,7 +612,7 @@ html {
 	animation-delay: 1s;
 }
 
-#mario-bros-parado {
+.mario-bros-parado {
 	z-index: 3;
 	visibility: hidden;
 	position: absolute;
@@ -600,7 +634,7 @@ html {
 	animation-delay: 6s;
 }
 
-#mario-bros-cabeza {
+.mario-bros-cabeza {
 	background-image: url(../img/mario.png);
 	background-position: 0px 0px;
 	height: 54px;
@@ -625,7 +659,7 @@ html {
 	animation-delay: 7s;
 }
 
-#mario-disparo {
+.mario-disparo {
 	z-index: 4;
 	position: absolute;
 	height: 150px;
@@ -652,7 +686,7 @@ html {
 	animation-delay: 9s;
 }
 
-#disparo {
+.disparo {
 	background-image: url(../img/bala.png);
 	height: 150px;
 	width: 150px;
@@ -692,7 +726,7 @@ html {
 	animation-fill-mode: forwards;
 }
 
-#mario-bros-camina-post {
+.mario-bros-camina-post {
 	visibility: hidden;
 	z-index: 3;
 	position: absolute;
@@ -714,7 +748,7 @@ html {
 	animation-delay: 9s;
 }
 
-#mario-bros-pies2 {
+.mario-bros-pies2 {
 	background-image: url(../img/mario.png);
 	background-position: 0px 0px;
 	height: 54px;

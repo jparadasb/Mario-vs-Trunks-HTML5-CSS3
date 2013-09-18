@@ -1,4 +1,6 @@
 /* animacion3.css */
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+@import url(http://fonts.googleapis.com/css?family=Erica+One);
 @keyframes "accion-poder" {
  50% {
     height: 60px;
@@ -444,13 +446,7 @@
 }
 
 
-
-
-
-
-
-
-#salva-mario {
+.salva-mario {
 	position: absolute;
 	visibility: hidden;
 	text-align: center;
@@ -481,11 +477,12 @@
 
 #salva-mario h1 {
 	z-index: 20;
-	position: absolute;
+
 	left: 511px;
 	top: 86px;
 	width: 333px;
 	color: #fff;
+	margin:auto;
 }
 
 .salva-mario-off {
@@ -687,6 +684,7 @@
 	-moz-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
+	font-family: 'Press Start 2P';
 
 }
 
@@ -757,4 +755,20 @@
 	-webkit-filter: invert(1);
 	width: 64px;
 	height: 64px;
+}
+.logo{
+	margin:auto;
+	width:500px;
+	height:300px;
+	background-color: #d54b00;
+	color:#ffc1ae;
+	font-family: Erica One;
+}
+.logo h1{
+	font-size: 71px;
+	letter-spacing: 2px;
+}
+.logo h3{
+	font-size: 40px;
+	letter-spacing: 2px;
 }

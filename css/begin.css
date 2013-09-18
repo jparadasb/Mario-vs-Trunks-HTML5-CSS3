@@ -1,0 +1,42 @@
+/*begin.css*/
+.capanegra-pre{
+	z-index: 100;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	visibility: visible;
+	background-color: #000;
+}
+.mario-bros-camina-pre{
+	position:absolute;
+}
+.mario-bros-pies-pre{
+	position:absolute;
+}
+.mario-bros-parado-pre{
+	position:absolute;
+}
+.mario-bros-cabeza-pre{
+	position:absolute;
+}
+.mario-disparo-pre{
+	position:absolute;
+}
+.disparo-pre{
+	position:absolute;
+}
+.mario-bros-camina-post_pre{
+	position:absolute;
+}
+.mario-bros-pies2-pre{
+	position:absolute;
+}
+.mario-stop-pre{
+	position:absolute;
+}
+.trunks-entra-pre{
+
+}
+.trunks-teletransporta-pre{
+	
+}

@@ -25,11 +25,21 @@
 	<div id="mariomuere">
 		
 	</div>
-	<div id="salva-mario">
+	<div id="salva-mario" class="salva-mario-pre">
 		<h1>Haz Click para salvar a mario</h1>
 		<a href="#"><img src="img/hongo.png" height="589" width="624" /> </a>
 	</div>
- 	<div id="capanegra" class="capanegra">
+ 	<div id="capanegra" class="capanegra-pre">
+ 		
+ 		<div id="preload" class="preload">
+ 			<div class="logo">
+ 				<h3>SUPER</h3>
+ 				<h1>MARIO BROS.</h1>
+ 			</div>
+
+ 			<p id="begining">1 PLAYER GAME</p>
+ 		</div>
+
 		<div id="negra">
 			<div class="gameover" id="gameover">
 				<h1>GAME OVER</h1>
@@ -53,20 +63,20 @@
 	<div id="mario-bros-camina-post">
 		<div id="mario-bros-pies2"></div>
 	</div>
-	<div id="mario-stop" class="mario-stop">
+	<div id="mario-stop">
 		
 	</div>
 	<div id="dinero">
 		
 	</div>
-	<div id="trunks-entra" class="trunks-entra">
-		<div id="trunks-teletransporta" class="trunks-teletransporta" >
+	<div id="trunks-entra">
+		<div id="trunks-teletransporta">
 		</div>
 	</div>
 	<div id="poder" class="poder">
 		<img src="img/poder.png" class="accion-poder">
 	</div>
- 	<audio autoplay id="audio1">
+ 	<audio preload id="audio1">
 	  <source src="audio/mario-n.mp3" type="audio/mpeg" id="audiomario1">
 	</audio>
 	<audio preload id="audio2">
@@ -107,6 +117,30 @@
 		});
 
     });
+
+
+		$("#begining").click(function () {
+			$("#preload").removeClass("preload");
+			$("#preload").addClass("load");
+			$("#capanegra").removeClass("capanegra-pre");
+			$("#capanegra").addClass("capanegra");
+			$("#mario-bros-camina").addClass("mario-bros-camina");
+			$("#mario-bros-pies").addClass("mario-bros-pies");
+			$("#mario-bros-parado").addClass("mario-bros-parado");
+			$("#mario-bros-cabeza").addClass("mario-bros-cabeza");
+			$("#mario-disparo").addClass("mario-disparo");
+			$("#disparo").addClass("disparo");
+			$("#mario-bros-camina-post").addClass("mario-bros-camina-post");
+			$("#mario-bros-pies2").addClass("mario-bros-pies2");
+			$("#mario-stop").addClass("mario-stop");
+			$("#trunks-entra").addClass("trunks-entra");
+			$("#trunks-teletransporta").addClass("trunks-teletransporta");
+			$("#salva-mario").removeClass("salva-mario-pre");
+			$("#salva-mario").addClass("salva-mario");
+			$(document).ready(function(){
+				$("#audio1")[0].play();
+				});
+		});
 	</script>
 </body>
 </html>
