@@ -678,7 +678,7 @@
 }
 
 .gameover-post h1 {
-	font-size: 54px;
+	font-size: 36px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#FFF900), to(#FF0000));  
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
@@ -758,17 +758,7 @@
 }
 .logo{
 	margin:auto;
-	width:500px;
-	height:300px;
+	width:352px;
+	height:176px;
 	background-color: #d54b00;
-	color:#ffc1ae;
-	font-family: Erica One;
-}
-.logo h1{
-	font-size: 71px;
-	letter-spacing: 2px;
-}
-.logo h3{
-	font-size: 40px;
-	letter-spacing: 2px;
 }
